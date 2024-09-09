@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif; 
+}
+
+
+.menu-icon {
+  color: #343a40;
+cursor: pointer;
+}
+
+.brand {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.search-bar {
+    max-width: 400px;
+} 
+.sidebar .close-btn {
+    cursor: pointer;
+}
+
+
