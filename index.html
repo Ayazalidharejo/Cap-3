@@ -12,8 +12,8 @@
 </head>
 
     
-<body class="bg-white p-0 m-0"></body>
-    <div class="container-fluid navbar-custom py-3 px-2 bg-white shadow d-flex align-items-center justify-content-between">
+<body  class="bg-white p-0 m-0"></body>
+    <div class="container-fluid navbar-custom py-3 px-2 bg-white border-bottom border-0 d-flex align-items-center justify-content-between">
         <div class="container d-flex align-items-center justify-content-between">
             <!-- <i class="fas fa-bars menu-icon" id="menu-toggle"></i> -->
             <iconify-icon  class="menu-icon fs-4 "   id="menu-toggle" icon="octicon:three-bars-16"></iconify-icon>
@@ -27,10 +27,11 @@
             </div>
            </div>
         
-            <div class="search-bar position-relative d-none d-lg-flex flex-grow-1 mx-5 align-items-center">
-                <input class="form-control fw-medium pe-5 rounded-5 w-100 py-2 px-2" type="text" placeholder="Search for products">
+            <div class="search-bar position-relative   d-none d-lg-flex flex-grow-1 mx-5 align-items-center ">
+                <input class="form-control fw-medium pe-5 rounded-5 w-100 py-2 px-2 " type="text" placeholder="Search for products">
                 <iconify-icon class="search-icon position-absolute top-50 end-0 translate-middle-y me-2 fs-3" icon="humbleicons:search"></iconify-icon>
            </div>
+                <!-- <input class="form-control fw-medium pe-5 rounded-5 w-100 py-2 px-2" type="text" placeholder="Search for products">  -->
             <div class="d-none d-lg-flex">
                 <div class="delivery">
                     Delivery
@@ -48,10 +49,11 @@
             </div>
         </div>
     </div>
-
+    <input class="form-control fw-medium pe-5 rounded-5 py-2 px-2 mt-3 d-lg-none" type="text" placeholder="Search for products " >
     <div class="sidebar position-fixed top-25   bg-black h-100 text-white z-3" id="sidebar">
         <iconify-icon icon="material-symbols:close" class="close-btn fs-3 "  id="close-btn"></iconify-icon>
         <ul>
+            
             <li class="list-unstyled p-0 py-2"><a class="text-decoration-none text-white" href="#">Home</a></li>
             <li class="list-unstyled p-0 py-2"><a class="text-decoration-none text-white" href="#">Shop</a></li>
             <li class="list-unstyled p-0 py-2"><a class="text-decoration-none text-white" href="#">About</a></li>
@@ -59,6 +61,475 @@
         </ul>
     </div>
 
+    
+       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        
+        
+        <div class="container d-flex align-items-center py-3 text-nowrap">
+            <div class="d-flex align-items-center ms-2 me-3">
+                <img  src="./imgs/percent.png" class="rounded-circle bg-light p-2" width="50" height="50" alt="Percentage symbol">
+                 
+                <span class="fw-semibold text-black ms-2">Weekly sale</span>
+            </div>
+            <div class="d-flex align-items-center me-4">
+                <img src="./imgs/th01.png" class="rounded-circle bg-light p-2" width="50" height="50" alt="Vegetables">
+                <span class="fw-semibold text-black ms-2">Vegetables</span>
+            </div>
+            <div class="d-flex align-items-center me-4">
+                <img src="./imgs/th02.png" class="rounded-circle bg-light p-2" width="50" height="50" alt="Easter egg">
+                <span class="fw-semibold text-black ms-2">Easter is coming</span>
+            </div>
+            <div class="d-flex align-items-center me-4">
+                <img src="./imgs/th03.png" class="rounded-circle bg-light p-2" width="50" height="50" alt="Poultry meat">
+                <span class="fw-semibold text-black ms-2">Poultry meat</span>
+            </div>
+            <div class="d-flex align-items-center me-4">
+                <img src="./imgs/th04.png" class="rounded-circle bg-light p-2" width="50" height="50" alt="Fresh fruits">
+                <span class="fw-semibold text-black ms-2">Fresh fruits</span>
+            </div>
+            <div class="d-flex align-items-center me-4">
+                <img src="./imgs/th05.png" class="rounded-circle bg-light p-2" width="50" height="50" alt="St. Patrick's day">
+                <span class="fw-semibold text-black ms-2">St. Patrick's day</span>
+            </div>
+            <div class="d-flex align-items-center">
+                <img src="./imgs/th06.png" class="rounded-circle bg-light p-2" width="50" height="50" alt="Exotic fruits">
+                <span class="fw-semibold text-black ms-2">Exotic fruits</span>
+            </div>
+        </div>
+    
+        <div id="carousel1" class="carousel-inner mt-1">
+            <div class="carousel-item active position-relative ">
+                <div id="heroRight" class=" text-white container pt-lg-5 pt-md-5 pt-sm-5 position-absolute top-50 start-0 translate-middle-y p-5 ms-lg-5 ">
+                   <div class="ms-lg-5 ms-md-5 p-sm-5 "> 
+                   <div class="container mx-lg-5 ">
+                    <p class="ms-lg-5 ms-md-5">🔥 Free shipping - order over </p>
+                    <h2 class="display-4 ms-lg-5 pb-2 pb-md-3 pb-lg-4 fw-bold lg">Healthy Food Available <br> to Everyone </h2>
+                   <button type="button" id="buttons"  class="btn btn-outline-light btn-close-white rounded-5 py-2 px-3 border border-white ms-lg-5 rounded-0 px-4 text-decoration-none fw-medium">Shop Now</button>
+                </div>
+                </div>
+                </div>
+                <img id="img" class="object-fit-cover h-100 w-100" src="./imgs/img-2.jfif" class="d-block w-100" alt="...">
+
+            </div>
+            <div id="carousel1" class="carousel-item position-relative bac">
+                <div id="heroRight" class="text-white container pt-lg-5 pt-md-5 pt-sm-5 position-absolute top-50 start-0 translate-middle-y p-5 ms-lg-5 ">
+                    <div class="ms-lg-5 ms-md-5 p-sm-5">
+                        <div class="container mx-lg-5"> 
+                     <p class="ms-lg-5 ms-md-5">🥚 Organic products to your table</p>
+                     <h2 class="display-4 ms-lg-5 pb-2 pb-md-3 pb-lg-4 fw-bold lg">Organic eggs from <br> home-grown chicken </h2>
+                     <button type="button" id="buttons"  class="btn btn-outline-light btn-close-white rounded-5 py-2 px-3 border border-white ms-lg-5 rounded-0 px-4 text-decoration-none fw-medium">Shop now</button>
+                    </div>
+                    </div>
+                 </div>
+
+                <img id="img" class="object-fit-cover h-100 w-100" src="./imgs/img-3.jfif" class="d-block w-100" alt="...">
+            </div>
+            <div id="carousel1" class="carousel-item position-relative">
+                <div id="heroRight" class=" text-white container pt-lg-5 pt-md-5 pt-sm-5 position-absolute top-50 start-0 translate-middle-y p-5 ms-lg-5 ">
+                   <div class="mx-lg-5 container">
+                    <div class="ms-lg-5 ms-md-5 ps-sm-5"> 
+                     <p class="ms-lg-5 ms-md-5">🥝 Only natural ingredients </p>
+                     <h2 class="display-4 ms-lg-5 pb-2 pb-md-3 pb-lg-4 fw-bold lg">Enjoy refreshing <br> summer drink </h2>
+                     <button type="button" id="buttons"  class="btn btn-outline-light btn-close-white rounded-5 py-2 px-3 border border-white ms-lg-5 rounded-0 px-4 text-decoration-none fw-medium">Shop now</button>
+                    </div>
+                </div>
+                 </div>
+                <img id="img" class="object-fit-cover h-100 w-100" src="./imgs/img-1.jfif" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    
+    </div>   
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card product-card">
+              <img src="./imgs/001.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Only fresh fish to your table</h5>
+                <p class="card-text">124 products</p>
+                <a href="#" class="btn btn-primary">Shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card product-card">
+              <img src="./imgs/002.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Products for Easter table</h5>
+                <p class="card-text">97 products</p>
+                <a href="#" class="btn btn-primary">Shop now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card product-card">
+              <img src="./imgs/003.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Berries from the garden</h5>
+                <p class="card-text">28 products</p>
+                <a href="#" class="btn btn-primary">Shop now</a>
+              </div>
+            </div>
+          </div>
+
+
+          
+        </div>
+    
+
+
+        <div class="row">
+<div class="col-lg-3 col-md-3 col-sm-3 ">
+    <h2 class="categories">Categories</h2>
+    <div class="categories-list">
+      <div class="category">
+        <div class="category-icon">
+          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Bakery & Bread Icon">
+        </div>
+        <p class="category-name">Bakery & bread</p>
+        <p class="category-description">230 products</p>
+      </div>
+      <div class="category">
+        <div class="category-icon">
+          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Vegetables Icon">
+        </div>
+        <p class="category-name">Vegetables</p>
+        <p class="category-description">180 products</p>
+      </div>
+      <div class="category">
+        <div class="category-icon">
+          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Fresh Fruits Icon">
+        </div>
+        <p class="category-name">Fresh fruits</p>
+        <p class="category-description">205 products</p>
+      </div>
+      <div class="category">
+        <div class="category-icon">
+          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Meet Italian Dinner Icon">
+        </div>
+        <p class="category-name">Meet Italian dinner</p>
+        <p class="category-description">309 products</p>
+      </div>
+      <div class="category">
+        <div class="category-icon">
+          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Beverages Icon">
+        </div>
+        <p class="category-name">Beverages</p>
+        <p class="category-description">372 products</p>
+      </div>
+    </div>
+
+
+</div>
+<div class="col-lg-9 col-md-9 col-sm-9">
+
+    
+    <h2 class="categories">Popular products</h2>
+    <div class="row">
+    
+    
+    
+        <div class="col-md-3 product-card">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1529228286149-97e89d027067?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Muesli Fitness Energy, gluten free</h5>
+            <p class="card-text">500g</p>
+            <div class="button-container">
+              <p class="price">$2.15</p>
+              <button class="add-button">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card">
+        <div class="card">
+          <div class="discount">-30%</div>
+          <img src="https://images.unsplash.com/photo-1585537240964-563b1b75027f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fresh orange Klementina, Spain</h5>
+            <p class="card-text">1kg</p>
+            <div class="button-container">
+              <p class="price">$3.12</p>
+              <p class="price-old">$4.05</p>
+              <button class="add-button">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1588103765854-5094887d7d5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pepsi soda classic, can</h5>
+            <p class="card-text">330ml</p>
+            <div class="button-container">
+              <p class="price">$0.80</p>
+              <button class="add-button">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mozzarella mini cheese Granaloro</h5>
+            <p class="card-text">250g</p>
+            <div class="button-container">
+              <p class="price">$2.99</p>
+              <button class="add-button">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="view-all">
+      <a href="#" class="btn btn-link">View all</a>
+
+      <div class="row">
+    
+    
+    
+        <div class="col-md-3 product-card">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1529228286149-97e89d027067?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Muesli Fitness Energy, gluten free</h5>
+            <p class="card-text">500g</p>
+            <div class="button-container">
+              <p class="price">$2.15</p>
+              <button class="add-button">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card">
+        <div class="card">
+          <div class="discount">-30%</div>
+          <img src="https://images.unsplash.com/photo-1585537240964-563b1b75027f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fresh orange Klementina, Spain</h5>
+            <p class="card-text">1kg</p>
+            <div class="button-container">
+              <p class="price">$3.12</p>
+              <p class="price-old">$4.05</p>
+              <button class="add-button">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1588103765854-5094887d7d5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pepsi soda classic, can</h5>
+            <p class="card-text">330ml</p>
+            <div class="button-container">
+              <p class="price">$0.80</p>
+              <button class="add-button">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 product-card">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mozzarella mini cheese Granaloro</h5>
+            <p class="card-text">250g</p>
+            <div class="button-container">
+              <p class="price">$2.99</p>
+              <button class="add-button">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    
+  </div>
+
+
+</div>
+
+
+
+
+        </div>
+       
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+        <div class="container mt-5">
+            <div class="row">
+                <!-- Recipes Section -->
+                <div class="col-md-5 col-12 mb-4 mb-md-0">
+                    <h2>Recipes</h2>
+    
+                    <!-- Recipe 1 -->
+                    <div class="d-flex  mb-3">
+                        <div class="col-4">
+                            <img src="./imgs/01.jpg" class="w-100 img-fluid rounded"
+                                alt="Garden salad with a mix of lettuce, cucumber and tomato">
+                        </div>
+                        <div class="col-8">
+                            <h5 class="ps-2 ">Garden salad with a mix of lettuce, cucumber and tomato</h5>
+                            <div class="d-flex align-items-center">
+                                <iconify-icon class="ps-2" icon="ph:clock-light" width="16px" height="16px"></iconify-icon>
+                                <span class="ps-1">30 min</span>
+                                <iconify-icon class="ps-2" icon="akar-icons:thunder" width="16px"
+                                    height="16px"></iconify-icon> <span class="ps-1">Easy</span>
+                                <iconify-icon class="ps-2" icon="icon-park-twotone:cooking-pot" width="16px"
+                                    height="16px"></iconify-icon> <span class="ps-1">4 por</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Recipe 2 -->
+                    <div class="d-flex flex-wrap mb-3">
+                        <div class="col-4">
+                            <img src="./imgs/02.jpg" class="w-100 img-fluid rounded"
+                                alt="Raspberry fresh lemonade with lemon, strawberry syrup and mint">
+                        </div>
+                        <div class="col-8">
+                            <h5 class="ps-2">Raspberry fresh lemonade with lemon, strawberry syrup and mint</h5>
+                            <div class="d-flex align-items-center">
+                                <iconify-icon class="ps-2" icon="ph:clock-light" width="16px" height="16px"></iconify-icon>
+                                <span class="ps-1">50 min</span>
+                                <iconify-icon class="ps-2" icon="akar-icons:thunder" width="16px"
+                                    height="16px"></iconify-icon> <span class="ps-1">Hard</span>
+                                <iconify-icon class="ps-2" icon="icon-park-twotone:cooking-pot" width="16px"
+                                    height="16px"></iconify-icon> <span class="ps-1">8 por</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Recipe 3 -->
+                    <div class="d-flex flex-wrap mb-4">
+                        <div class="col-4">
+                            <img src="./imgs/03.jpg" class="w-100 img-fluid rounded"
+                                alt="Penne pasta with spinach and zucchini in a creamy sauce">
+                        </div>
+                        <div class="col-8">
+                            <h5 class="ps-2">Penne pasta with spinach and zucchini in a creamy sauce</h5>
+                            <div class="d-flex align-items-center">
+                                <iconify-icon class="ps-2" icon="ph:clock-light" width="16px" height="16px"></iconify-icon>
+                                <span class="ps-1">25 min</span>
+                                <iconify-icon class="ps-2" icon="akar-icons:thunder" width="16px"
+                                    height="16px"></iconify-icon> <span class="ps-1">Easy</span>
+                                <iconify-icon class="ps-2" icon="icon-park-twotone:cooking-pot" width="16px"
+                                    height="16px"></iconify-icon> <span class="ps-1">2 por</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <a class="text-black text-decoration-none" href="#">View all ></a>
+                </div>
+    
+                <!-- Cookbook Section -->
+    
+                <div class="col-md-7 col-lg-7 col-sm-12  border border-1 rounded-4">
+                    <div class="p-3">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div>
+                                    <img src="./imgs/book-cover.jpg" class="card-img border rounded-3"
+                                        alt="Book cover showing cupcakes with fruits on a wooden board">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="mt-5">
+                                    <span class="badge bg-body-secondary text-black-50 rounded-pill mb-3">Cookbook</span>
+                                    <h4 class="font-weight-bold mt-2">The Best in Gastronomy</h4>
+                                    <p>Author: <strong>Dana Chambers</strong></p>
+                                    <p>An exquisite cookbook that takes readers on a culinary journey around the world.
+                                        stunning photography and detailed instructions ...
+                                    </p>
+                                    <p class="fw-bolder fs-3">$12.40</p>
+                                    <a href="#" class="btn btn-dark px-3 py-2 rounded-5 fw-semibold">Shop book <span
+                                            class="fw-bolder">></span> <i class="fas fa-chevron-right"></i></a>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+
+
+
+
+
+
+
+   <div> <div class="product row"></div>
+    <div class="product row"></div>
+    <div class="product row"></div>
+    <div class="product row"></div>
+</div>
+    <div class="product row"></div>
+    <div class="product row"></div>
+    <div class="product row"></div>
+    <div class="product row"></div>
+    <div class="product row"></div>
+    <div class="product row"></div>
+    <div class="product row"></div>
+
+
+
+
+
+
+
+
+
+
+    
+    
     
     <script src="./script.js"></script>
     
