@@ -12,7 +12,38 @@
 </head>
 
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <body  class="bg-white p-0 m-0"></body>
+<!-- Add a button with a data attribute for the product ID -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="container-fluid navbar-custom py-3 px-2 bg-white border-bottom border-0 d-flex align-items-center justify-content-between">
         <div class="container d-flex align-items-center justify-content-between">
             <!-- <i class="fas fa-bars menu-icon" id="menu-toggle"></i> -->
@@ -43,9 +74,9 @@
             </div>
             <div class="icons position-relative">
                 <iconify-icon class="fs-3 me-3" icon="carbon:sun"></iconify-icon>
-                <iconify-icon class="fs-3 me-3" icon="material-symbols:person"></iconify-icon>
-                <iconify-icon class="fs-3 position-relative" icon="bitcoin-icons:cart-outline"></iconify-icon>
-                <span class="bg-black text-white  opacity-75   position-absolute top-0 start-100 translate-middle rounded-5 px-2">8</span>
+                <a href="./log & sign up/signin.html"> <iconify-icon  class="fs-3 me-3" icon="material-symbols:person"></iconify-icon></a>
+                <iconify-icon class="fs-3 position-relative" icon="bitcoin-icons:cart-outline" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></iconify-icon>
+                <span class="bg-black text-white  opacity-75   position-absolute top-0 start-100 translate-middle rounded-5 px-2" >8</span>
             </div>
         </div>
     </div>
@@ -155,251 +186,345 @@
 
 
 
-    <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card product-card">
-              <img src="./imgs/001.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Only fresh fish to your table</h5>
-                <p class="card-text">124 products</p>
-                <a href="#" class="btn btn-primary">Shop now</a>
+<div class="container mt-5 ">
+  <div class="row">
+      <div class="col-md-4 mb-3">
+          <div class="card py-4 rounded-4 border-0 overflow-hidden" style="background-color: #ffeef0;">
+              <div class="card-body position-relative z-2">
+                  <p class="card-text text-success">
+                      124 products
+                  </p>
+                  <h4 class="fw-semibold">
+                      Only fresh fish <br> to your table
+                  </h4>
+                  <a class="text-dark d-flex align-items-center text-decoration-none pt-3" href="#">
+                      Shop now
+                      <iconify-icon class="mx-1 fs-5 " icon="iconamoon:arrow-right-2-light"></iconify-icon>
+                  </a>
               </div>
-            </div>
+              <img  class="img-fluid position-absolute top-50 end-0 translate-middle-y   z-1  " alt="Fresh blueberries with green leaves"  height="100%" src="./imgs/001.png"
+                width="200px" />
           </div>
-          <div class="col-md-4">
-            <div class="card product-card">
-              <img src="./imgs/002.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Products for Easter table</h5>
-                <p class="card-text">97 products</p>
-                <a href="#" class="btn btn-primary">Shop now</a>
+      </div>
+      <div class="col-md-4 mb-3">
+          <div class="card py-4  rounded-4 border-0 overflow-hidden" style="background-color: #f8f9fa;">
+              <div class="card-body position-relative z-2">
+                  <p class="card-text text-success">
+                      97 products
+                  </p>
+                  <h4 class="fw-semibold">
+                      Products for <br> Easter table
+                  </h4>
+                  <a class="text-dark d-flex align-items-center text-decoration-none pt-3" href="#">
+                      Shop now
+                      <iconify-icon class="mx-1 fs-5 " icon="iconamoon:arrow-right-2-light"></iconify-icon>
+                  </a>
               </div>
-            </div>
+              <img class="position-absolute top-50 end-0 translate-middle-y   z-1 " alt="Fresh blueberries with green leaves" height="100%" src="./imgs/002.png"
+                  width="200" />
           </div>
-          <div class="col-md-4">
-            <div class="card product-card">
-              <img src="./imgs/003.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Berries from the garden</h5>
-                <p class="card-text">28 products</p>
-                <a href="#" class="btn btn-primary">Shop now</a>
+      </div>
+      <div class="col-md-4 mb-3">
+          <div class="card py-4  rounded-4 border-0 overflow-hidden " style="background-color: #fdeaf0;">
+              <div class="card-body position-relative z-2">
+                  <p class="card-text">
+                      28 products
+                  </p>
+                  <h4 class="fw-semibold ">
+                      Berries from <br> the garden
+                  </h4>
+                  <a class="text-dark d-flex align-items-center text-decoration-none pt-3" href="#">
+                      Shop now
+                      <iconify-icon class="mx-1 fs-5 " icon="iconamoon:arrow-right-2-light"></iconify-icon>
+                  </a>
               </div>
-            </div>
+              <img class="position-absolute top-50 end-0 translate-middle-y   z-1 " alt="Fresh blueberries with green leaves" height="100%" src="./imgs/003.png"
+                  width="300" />
           </div>
-
-
-          
-        </div>
-    
-
-
-        <div class="row">
-<div class="col-lg-3 col-md-3 col-sm-3 ">
-    <h2 class="categories">Categories</h2>
-    <div class="categories-list">
-      <div class="category">
-        <div class="category-icon">
-          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Bakery & Bread Icon">
-        </div>
-        <p class="category-name">Bakery & bread</p>
-        <p class="category-description">230 products</p>
       </div>
-      <div class="category">
-        <div class="category-icon">
-          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Vegetables Icon">
-        </div>
-        <p class="category-name">Vegetables</p>
-        <p class="category-description">180 products</p>
-      </div>
-      <div class="category">
-        <div class="category-icon">
-          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Fresh Fruits Icon">
-        </div>
-        <p class="category-name">Fresh fruits</p>
-        <p class="category-description">205 products</p>
-      </div>
-      <div class="category">
-        <div class="category-icon">
-          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Meet Italian Dinner Icon">
-        </div>
-        <p class="category-name">Meet Italian dinner</p>
-        <p class="category-description">309 products</p>
-      </div>
-      <div class="category">
-        <div class="category-icon">
-          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="Beverages Icon">
-        </div>
-        <p class="category-name">Beverages</p>
-        <p class="category-description">372 products</p>
-      </div>
-    </div>
-
-
-</div>
-<div class="col-lg-9 col-md-9 col-sm-9">
-
-    
-    <h2 class="categories">Popular products</h2>
-    <div class="row">
-    
-    
-    
-        <div class="col-md-3 product-card">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1529228286149-97e89d027067?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Muesli Fitness Energy, gluten free</h5>
-            <p class="card-text">500g</p>
-            <div class="button-container">
-              <p class="price">$2.15</p>
-              <button class="add-button">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 product-card">
-        <div class="card">
-          <div class="discount">-30%</div>
-          <img src="https://images.unsplash.com/photo-1585537240964-563b1b75027f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Fresh orange Klementina, Spain</h5>
-            <p class="card-text">1kg</p>
-            <div class="button-container">
-              <p class="price">$3.12</p>
-              <p class="price-old">$4.05</p>
-              <button class="add-button">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 product-card">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1588103765854-5094887d7d5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pepsi soda classic, can</h5>
-            <p class="card-text">330ml</p>
-            <div class="button-container">
-              <p class="price">$0.80</p>
-              <button class="add-button">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 product-card">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Mozzarella mini cheese Granaloro</h5>
-            <p class="card-text">250g</p>
-            <div class="button-container">
-              <p class="price">$2.99</p>
-              <button class="add-button">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="view-all">
-      <a href="#" class="btn btn-link">View all</a>
-
-      <div class="row">
-    
-    
-    
-        <div class="col-md-3 product-card">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1529228286149-97e89d027067?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Muesli Fitness Energy, gluten free</h5>
-            <p class="card-text">500g</p>
-            <div class="button-container">
-              <p class="price">$2.15</p>
-              <button class="add-button">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 product-card">
-        <div class="card">
-          <div class="discount">-30%</div>
-          <img src="https://images.unsplash.com/photo-1585537240964-563b1b75027f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Fresh orange Klementina, Spain</h5>
-            <p class="card-text">1kg</p>
-            <div class="button-container">
-              <p class="price">$3.12</p>
-              <p class="price-old">$4.05</p>
-              <button class="add-button">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 product-card">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1588103765854-5094887d7d5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Pepsi soda classic, can</h5>
-            <p class="card-text">330ml</p>
-            <div class="button-container">
-              <p class="price">$0.80</p>
-              <button class="add-button">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 product-card">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1574296635405-2b09908b2269?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Mozzarella mini cheese Granaloro</h5>
-            <p class="card-text">250g</p>
-            <div class="button-container">
-              <p class="price">$2.99</p>
-              <button class="add-button">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    </div>
-
-
-
-
-
-
-
-
-
-    
   </div>
-
-
 </div>
 
+        <div class="container ">
+          
+          <div class="row mt-5">
+            
+              <div class="col-md-3 ">
+               <hr>
+                  
+                  <div class="category-item d-flex align-items-center mb-lg-2 mt-lg-5 mt-md-5 mt-sm-5">
+                    <div class="">  <img class="  bg-light rounded-5 p-1 ms-1 mt-lg-5" alt="Bakery &amp; bread" height="50" 
+                          src="./imgs/011.png"
+                          width="50" />
+                        </div>
+                          <div>
+                        
+                          <div class="flex-column d-flex align-items-center mt-lg-5 ms-2 mt-md-5 mt-sm-5  ">
+                           <span class="fw-bold">Bakery & bread</span>   
+                          </div>
+                          
+                            <span class="ms-2 opacity-50">  230 products</span>
+                          
+                      </div>
+                      
+                  </div>
+                  <div class="category-item d-flex align-items-center mt-lg-5mt-md-5 mt-sm-5">
+                      <img class="bg-light rounded-5 p-1 ms-1" alt="Vegetables" height="50"
+                          src="./imgs/022.png"
+                          width="50" />
+                      <div class="d-flex flex-column">
+                          
+                          <span class="fw-bold ms-2">    Vegetables
+                          </span>                          
+                          <span class="ms-2 opacity-50">180 products</span>
+                              
+                          
+                      </div>
+                  </div>
+                  <div class="category-item d-flex align-items-center mt-lg-5 mt-md-5 mt-sm-5">
+                      <img class="bg-light rounded-5 p-1 ms-1" alt="Fresh fruits" height="50"
+                          src="./imgs/033.png"
+                          width="50" />
+                      <div class="d-flex flex-column">
+                          
+                       <span class="fw-bold ms-2">Fresh fruits</span>       
+                          
+                          
+                          <span class="ms-2 opacity-50">    205 products</span>
+                                                </div>
+                  </div>
+                  <div class="category-item d-flex align-items-center mt-lg-5  mt-md-5 mt-sm-5">
+                      <img class="bg-light rounded-5 p-1 ms-1" alt="Meet Italian dinner" height="50"
+                          src="./imgs/044.png"
+                          width="50" />
+                      <div class="d-flex flex-column">
+                          
+                              
+                          <span class="fw-bold ms-2"> Meet Italian dinner</span>
+                        
+                             <span class="ms-2 opacity-50"> 309 products</span>
+                          
+                      </div>
+                  </div>
+                  <div class="category-item d-flex align-items-center mt-lg-5 mt-md-5 mt-sm-5">
+                      <img class="bg-light rounded-5 p-1 ms-1" alt="Beverages" height="50"
+                          src="./imgs/055.png"
+                          width="50" />
+                      <div class="d-flex flex-column">
+                          
+                           <span class="fw-bold ms-2"> Beverages</span>  
+                          
+                          <span class="ms-2 opacity-50">372 products</span>
+                              
+                          
+                      </div>
+                  </div>
+                  <div class="category-item d-flex align-items-center mt-lg-5 mt-md-5 mt-sm-5 ">
+                      <img class="bg-light rounded-5 p-1 ms-1" alt="Meat products" height="50"
+                          src="./imgs/066.png"
+                          width="50" />
+                      <div class="d-flex flex-column">
+                          
+                          <span class="fw-bold ms-2"> Meat products</span>   
+                          
+                          
+                              
+                          <span class="ms-2 opacity-50">124 products</span>
+                      </div>
+                  </div>
+                  <div class="category-item d-flex align-items-center mt-lg-5 mt-md-5 mt-sm-5">
+                      <img class="bg-light rounded-5 p-1 ms-1" alt="Sauces and ketchup" height="50"
+                          src="./imgs/077.png" />
+                      <div class="d-flex flex-column">
+                          
+                           <span class="fw-bold ms-2">Sauces and ketchup</span>   
+                          
+                          
+                          <span class="ms-2 opacity-50">219 products</span>    
+                                                </div>
+                  </div>
+                  <div class="category-item d-flex align-items-center mt-lg-5 mt-md-5 mt-sm-5">
+                      <img class="bg-light rounded-5 p-1 ms-1" alt="Dairy and eggs" height="50"
+                          src="./imgs/088.png"
+                          width="50" />
+                      <div class="d-flex flex-column">
+                          
+                          <span class="fw-bold ms-2">Dairy and eggs</span>    
+                          
+                          <span class="
+                          ms-2 opacity-50">146 products</span>
+                              
+                          
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-9">
+                  <div class="d-flex justify-content-between align-items-center mb-lg-2 mt-md-5 mt-sm-5">
+                      <h4>
+                          Popular products
+                      </h4>
+                      <a class="text-muted" href="#">
+                          View all
+                      </a>
+                  </div>
+                  <hr />
 
 
+                  <div class="">
 
+                  <div class="d-flex flex-wrap">
+                    <div class="Hoverme col-6 col-md-3 position-relative">
+                        <img class="img-fluid" alt="Muesli Fitness Energy, gluten free" height="200" src="./imgs/01s.png" width="200" />
+                        <div class="fw-bold">$2.15</div>
+                        <div class="mt-5 pt-4" id="underline">Muesli Fitness Energy, gluten free</div>
+                        <div class="mt-5 opacity-50">500g</div>
+                        <div class="d-flex justify-content-center mt-2">
+                            <div class="favorite"><i class="far fa-heart"></i></div>
+                            <div style="background-color: #F5F7F8;" id="addtocart" class="add-to-cart ms-3 rounded-2 py-1 px-2 position-absolute top-50 start-50 translate-middle ms-5 mt-2">+</div>
+                        </div>
+                    </div>
+                
+                    <div class="Hoverme col-6 col-md-3 position-relative">
+                        <img class="img-fluid" alt="Fresh orange Klementina, Spain" height="200" src="./imgs/02s.png" width="200" />
+                        <div class="fw-bold">$3.12 <span class="opacity-25 text-decoration-line-through">$4.05</span></div>
+                        <div class="discount">-30%</div>
+                        <div class="mt-5" id="underline">Fresh orange Klementina, <br> Spain</div>
+                        <div class="mt-5 opacity-50">1kg</div>
+                        <div class="d-flex justify-content-center mt-2">
+                            <div class="favorite"><i class="far fa-heart"></i></div>
+                            <div style="background-color: #F5F7F8;" id="addtocart" class="add-to-cart ms-3 rounded-2 py-1 px-2 position-absolute top-50 start-50 translate-middle ms-5 mt-2">+</div>
+                        </div>
+                    </div>
+                
+                    <div class="Hoverme col-6 col-md-3 position-relative">
+                        <img class="img-fluid" alt="Pepsi soda classic, can" height="200" src="./imgs/03s.png" width="200" />
+                        <div class="fw-bold">$0.80</div>
+                        <div class="mt-5 pt-4" id="underline">Pepsi soda classic, can</div>
+                        <div class="mt-5 pt-4 opacity-50"><span>330ml</span></div>
+                        <div class="d-flex justify-content-center mt-2">
+                            <div class="favorite"><i class="far fa-heart"></i></div>
+                            <div style="background-color: #F5F7F8;" id="addtocart" class="add-to-cart ms-3 rounded-2 py-1 px-2 position-absolute top-50 start-50 translate-middle ms-5 mt-2">+</div>
+                        </div>
+                    </div>
+                
+                    <div class="Hoverme col-6 col-md-3 position-relative">
+                        <img class="img-fluid" alt="Mozzarella mini cheese Granaloro" height="200" src="./imgs/04s.png" width="200" />
+                        <div class="fw-bold">$2.99</div>
+                        <div class="mt-5 p-3" id="underline">Mozzarella mini cheese Granaloro</div>
+                        <div class="mt-5 opacity-50">250g</div>
+                        <div class="d-flex justify-content-center mt-2">
+                            <div class="favorite"><i class="far fa-heart"></i></div>
+                            <div style="background-color: #F5F7F8;" id="addtocart" class="add-to-cart ms-3 rounded-2 py-1 px-2 position-absolute top-50 start-50 translate-middle ms-5 mt-2">+</div>
+                        </div>
+                    </div>
+                
+                    <div class="Hoverme col-6 col-md-3 position-relative">
+                        <img class="img-fluid" alt="Coconut, Indonesia" height="200px" src="./imgs/05s.png" width="200px" />
+                        <div class="fw-bold">$1.24</div>
+                        <div class="mt-4 pt-5" id="underline">Coconut, Indonesia</div>
+                        <div class="mt-4 opacity-50">1 coconut</div>
+                        <div class="d-flex justify-content-center mt-2">
+                            <div class="favorite"><i class="far fa-heart"></i></div>
+                            <div style="background-color:#F5F7F8;" id="addtocart" class="add-to-cart ms-3 rounded-2 py-1 px-2 position-absolute top-50 start-50 translate-middle ms-5 mt-2">+</div>
+                        </div>
+                    </div>
+                
+                    <div class="Hoverme col-6 col-md-3 position-relative">
+                        <img class="img-fluid" width="200px" alt="Pesto sauce Barilla with parmesan and basil" height="200px" src="./imgs/06s.png" />
+                        <div class="fw-bold">$3.95</div>
+                        <div class="mt-5 pt-3" id="underline">Pesto sauce Barilla with parmesan and basil</div>
+                        <div class="mt-3 opacity-50">200g</div>
+                        <div class="d-flex justify-content-center mt-2">
+                            <div class="favorite"><i class="far fa-heart"></i></div>
+                            <div style="background-color: #F5F7F8;" id="addtocart" class="add-to-cart ms-3 rounded-2 py-1 px-2 position-absolute top-50 start-50 translate-middle ms-5 mt-2">+</div>
+                        </div>
+                    </div>
+                
+                    <div class="Hoverme col-6 col-md-3 position-relative">
+                        <img class="img-fluid" alt="Fresh mango, Spain" height="200" src="./imgs/07s.png" width="200" />
+                        <div class="fw-bold">$1.99</div>
+                        <div class="mt-2 pt-5" id="underline">Fresh mango, Spain</div>
+                        <div class="mt-5 opacity-50">1 mango</div>
+                        <div class="d-flex justify-content-center mt-2">
+                            <div class="favorite"><i class="far fa-heart"></i></div>
+                            <div style="background-color:#F5F7F8;" id="addtocart" class="add-to-cart ms-3 rounded-2 py-1 px-2 position-absolute top-50 start-50 translate-middle ms-5 mt-2">+</div>
+                        </div>
+                    </div>
+
+                    <div class="Hoverme col-md-3 col-6    position-relative">
+                        <img class="img-fluid" alt="Fresh green asparagus, bunch" height="200"    src="./imgs/08s.png"   width="200" />
+                        <div class="fw-bold">    $2.40    </div>
+                        <div class="mt-2 pt-5" id="underline">
+                            Fresh green asparagus, <br> bunch
+                        </div>
+                        <div class="mt-4 opacity-50">
+                            300g
+                        </div>
+                        <div class="d-flex justify-content-center mt-2">
+                            <div class="favorite">
+                                <i class="far fa-heart">
+                                </i>
+                            </div>
+                            <div style="background-color: #F5F7F8;"  id="addtocart" class=" ms-3 rounded-2  py-1 px-2 position-absolute top-50 start-50 translate-middle ms-5 mt-2">
+                                +
+                            </div>
+                        </div>
+                    </div>
+                      
+                </div>
+                
+                </div>
+                </div>
+
+          </div>
+      </div> -
+
+      
+
+
+      <div class="container text-center py-5">
+        <h2 class="fw-bold mb-4">Shop by lifestyle</h2>
+        <div class="row justify-content-center g-4">
+            <!-- Only the first item is visible on mobile screens -->
+            <div class="col-12 d-block d-md-none mb-4">
+                <div class="lifestyle-icon gluten-free">
+                    <img src="./imgs/gluten-free.png" alt="Gluten-Free icon" width="90">
+                </div>
+                <h5 class="fw-bold">Gluten-Free</h5>
+                <p class="text-muted">Foods that don't contain gluten</p>
+            </div>
+           
+            <!-- Hide the remaining items on mobile screens -->
+            <div class="col-12 col-md-3 d-none d-md-block">
+                <div class="lifestyle-icon gluten-free">
+                    <img src="./imgs/gluten-free.png" alt="Gluten-Free icon" width="90">
+                </div>
+                <h5 class="fw-bold">Gluten-Free</h5>
+                <p class="text-muted">Foods that don't contain gluten</p>
+            </div>
+            <div class="col-12 col-md-3 d-none d-md-block">
+                <div class="lifestyle-icon vegan">
+                    <img src="./imgs/broccoli.png" alt="Vegan icon" width="60">
+                </div>
+                <h5 class="fw-bold">Vegan</h5>
+                <p class="text-muted">Vegetable based goodness</p>
+            </div>
+            <div class="col-12 col-md-3 d-none d-md-block">
+                <div class="lifestyle-icon plant-based">
+                    <img src="./imgs/leaf.png" alt="Plant based icon" width="90">
+                </div>
+                <h5 class="fw-bold">Plant based</h5>
+                <p class="text-muted">Based on herbal ingredients</p>
+            </div>
+            <div class="col-12 col-md-3 d-none d-md-block">
+                <div class="lifestyle-icon keto">
+                    <img src="./imgs/avocado.png" alt="Keto icon" width="90">
+                </div>
+                <h5 class="fw-bold">Keto</h5>
+                <p class="text-muted">Good fats served in food</p>
+            </div>
         </div>
-       
-    
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
+    </div>
 
 
         <div class="container mt-5">
@@ -506,30 +631,189 @@
 
 
 
-   <div> <div class="product row"></div>
-    <div class="product row"></div>
-    <div class="product row"></div>
-    <div class="product row"></div>
+
+
+
+        <div class="container mt-5 mb-5">
+            <div class="row gap-3">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex bg-body-secondary  rounded-4 ms-lg-3">
+                    <img class="img-fluid w-50" src="./imgs/banner01.png" alt="">
+    
+                    <div class="mt-4 mt-lg-5  pt-lg-5">
+                        <h5 class="fw-bold text-center text-lg-start">
+                            Make online shop easier with <br> our Cartzilla App
+                        </h5>
+                        <div class="d-flex flex-column flex-lg-row flex-md-row flex-sm-row gap-2 pb-3 mt-4">
+    
+                            <a class="text-black text-decoration-none border-0 bg-white rounded-5 p-2  d-flex align-items-center justify-content-center"
+                                href="#">
+                                <img class="img-fluid me-2" src="./imgs/store.png" alt="Google Play Icon"
+                                    width="20px">
+                                Google Play
+                            </a>
+                            <a class="text-black text-decoration-none border-0 bg-white rounded-5 p-2    d-flex align-items-center justify-content-center"
+                                href="#">
+                                <img class="img-fluid me-2" src="./imgs/apple.png" alt="App Store Icon"
+                                    width="20px">
+                                App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 d-flex bg-body-secondary rounded-4 ms-lg-3">
+                    <img class="img-fluid w-50" src="./imgs/banner02.png" alt="">
+    
+                    <div class="mt-5 pt-lg-5">
+                        <h5 class="fw-bold">
+                            We'd love to hear <br> what you think!
+                        </h5>
+                        <div>
+    
+                            <a class="text-decoration-none d-flex align-items-center text-black mt-4" href="#">
+                                Give a feedback
+                                <iconify-icon class="mx-2" icon="iconamoon:arrow-right-2-light"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background-color: #1c1e21;" class="footer text-white py-3">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <h2>Stay in touch with us</h2>
+                        <p>Receive the latest updates about our products & promotions</p>
+                        <div class="d-flex justify-content-center ">
+                            <input type="email"   class="rounded-5 px-2 py-2 form-control  text-black  w-25"  placeholder="You email"  >
+                            <button class="btn btn-danger rounded-5 px-2 py-2 mx-3 ">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+            <hr>
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <h5>Cartzilla</h5>
+                        <p>With a wide selection of fresh produce, pantry staples, and household essentials, we've got everything you need just a click away.</p>
+                        <div>
+                            <iconify-icon class="mx-2 fs-4" icon="mdi:instagram"></iconify-icon>
+                            <iconify-icon class="mx-2 fs-4" icon="ri:facebook-fill"></iconify-icon>
+                            <iconify-icon class="mx-2 fs-4" icon="mingcute:telegram-fill"></iconify-icon>
+                            <iconify-icon class="mx-2 fs-4" icon="ic:baseline-whatsapp"></iconify-icon>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6 mb-4">
+                        <h5>Categories</h5>
+                        <ul class="list-unstyled">
+                            <li class="pt-2"><a class="text-decoration-none text-white" href="#">Weekly sale</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white" href="#">Special price</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white" href="#">Easter is coming</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white" href="#">Italian dinner</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white" href="#">Fresh fruits</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white" href="#">Exotic fruits</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-6 mb-4">
+                        <h5>Company</h5>
+                        <ul class="list-unstyled">
+                            <li class="pt-2" ><a class="text-decoration-none text-white fw-normal" href="#">Blog and news</a></li>
+                            <li class="pt-2" ><a class="text-decoration-none text-white fw-normal" href="#">About us</a></li>
+                            <li class="pt-2" ><a class="text-decoration-none text-white fw-normal" href="#">FAQ page</a></li>
+                            <li class="pt-2" ><a class="text-decoration-none text-white fw-normal" href="#">Contact us</a></li>
+                            <li class="pt-2" ><a class="text-decoration-none text-white fw-normal" href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-6 mb-4">
+                        <h5>Account</h5>
+                        <ul class="list-unstyled">
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Your account</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Shipping & policies</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Refunds & replacements</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Order tracking</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Delivery info</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Taxes & fees</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-4">
+                        <h5 class="">Customer service</h5>
+                        <ul class="list-unstyled">
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Payment methods</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Money back guarantee</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Refunds & replacements</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Order tracking</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Delivery info</a></li>
+                            <li class="pt-2"><a class="text-decoration-none text-white fw-normal" href="#">Shipping</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© All rights reserved. Made with <i class="fas fa-heart"></i> by Createx Studio</p>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Add-to-cart</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div id="cardadd" class="offcanvas-body">
+    
+        <div id="cartItem">
+            <li>one</li>
+            <!-- <button class="" data-product-id="1">Add to Cart</button> -->
+
+<!-- Create a container to display the cart contents -->
+<div id="cart-container"></div>
+<!-- <button onclick="addItem('Item 1', 10)">Add Item 1</button> -->
+        </div> 
+      
+  </div>
 </div>
-    <div class="product row"></div>
-    <div class="product row"></div>
-    <div class="product row"></div>
-    <div class="product row"></div>
-    <div class="product row"></div>
-    <div class="product row"></div>
-    <div class="product row"></div>
-
-
-
-
-
-
-
-
-
-
-    
-    
     
     <script src="./script.js"></script>
     
