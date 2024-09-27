@@ -151,6 +151,38 @@ width: 10%;
 
 
 
+    
+    
+    
+   
+
+    
+
+    .add-to-cart-btns {
+      position: absolute;
+      top: 260px;
+        color: rgb(139, 135, 135);
+        border: none;
+        padding: 8px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      
+        
+        
+    }
+
+    .add-to-cart-btns:hover {
+        background-color: #d30d0d;
+        color: white;
+    }
+
+    
+
+    
+
+    
+    
+    
 
 
 

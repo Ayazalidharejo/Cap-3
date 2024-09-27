@@ -31,6 +31,19 @@
 
 
 
+<!-- <div id="section2" class="meals-section">
+    <h2>Section 2: Meals starting with B</h2>
+</div> -->
+
+ <!-- <div id="section3" class="meals-section">
+    <h2>Section 3: Meals starting with C</h2>
+</div>  -->
+
+<!-- <div id="cartItems"></div>
+<span id="cartQuantityBadge"></span>
+<div id="totalPrice"></div> -->
+
+
 
 
 
@@ -553,6 +566,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12 pb-4">
                 <div>
+                    
                     <div style="background-color: #a6cddc;" class="overflow-hidden rounded-4" >
                         <h3 class="px-4 pt-4 ">Make breakfast <br> healthy and easy</h3>
                         <div class="d-flex ">
@@ -575,62 +589,16 @@
                 </div> 
                 <hr>
                 
-                  
+                <div id="meals" class="meals-section position-relative d-flex gap-5 text-center">
+                    <h2>Meals</h2>
+                </div>
                  <div class="d-flex flex-wrap">
 
+                 
                     
-                    <div class="col-6 col-md-3 position-relative">
-                        <div class="text-end me-5"><iconify-icon class="heart" icon="mdi:heart-outline"></iconify-icon></div>
-                        <img class="img-fluid" height="200px" src="./images/09s.png" width="200px" />
-                        <div class="fw-bold">$2.15</div>
-                        <div class="mt-2 product-nam">Muesli Fitness Energy, <br> gluten free</div>
-                        <div class="mt-1 opacity-50">500g</div>
-                        <div class="d-flex justify-content-center mt-2">
-                            <div class="favorite"><i class="far fa-heart"></i></div>
-                        </div>
-                        <button type="button" class=" ms-4 mb-1 add-to-cart-btn plus"
-                            data-name="Muesli Fitness Energy" data-price="2.15" data-img="./images/09s.png">+</button>
-                    </div>
+                   
                     
-                    <div class="col-6 col-md-3 position-relative">
-                        <div class="text-end me-5"><iconify-icon class="heart" icon="mdi:heart-outline"></iconify-icon></div>
-                        <img class="img-fluid" height="200px" src="./images/10s.png" width="200px" />
-                        <div class="fw-bold">$2.15</div>
-                        <div class="mt-2 product-nam">Muesli Fitness Energy, <br> gluten free</div>
-                        <div class="mt-1 opacity-50">500g</div>
-                        <div class="d-flex justify-content-center mt-2">
-                            <div class="favorite"><i class="far fa-heart"></i></div>
-                        </div>
-                        <button type="button" class=" ms-4 mb-1 add-to-cart-btn plus"
-                            data-name="Muesli Fitness Energy" data-price="2.15" data-img="./images/10s.png">+</button>
-                    </div>
-                
-                    <div class="col-6 col-md-3 position-relative">
-                        <div class="text-end me-5"><iconify-icon class="heart" icon="mdi:heart-outline"></iconify-icon></div>
-                        <img class="img-fluid" height="200px" src="./images/11s.png" width="200px" />
-                        <div class="fw-bold">$2.15</div>
-                        <div class="mt-2 product-nam">Muesli Fitness Energy, <br> gluten free</div>
-                        <div class="mt-1 opacity-50">500g</div>
-                        <div class="d-flex justify-content-center mt-2">
-                            <div class="favorite"><i class="far fa-heart"></i></div>
-                        </div>
-                        <button type="button" class=" ms-4 mb-1 add-to-cart-btn plus"
-                            data-name="Muesli Fitness Energy" data-price="2.15" data-img="./images/11s.png">+</button>
-                    </div>
-                
-                    <div class="col-6 col-md-3 position-relative">
-                        <div class="text-end me-5"><iconify-icon class="heart" icon="mdi:heart-outline"></iconify-icon></div>
-                        <img class="img-fluid" height="200px" src="./images/12s.png" width="200px" />
-                        <div class="fw-bold">$2.15</div>
-                        <div class="mt-2 product-nam">Muesli Fitness Energy, <br> gluten free</div>
-                        <div class="mt-1 opacity-50">500g</div>
-                        <div class="d-flex justify-content-center mt-2">
-                            <div class="favorite"><i class="far fa-heart"></i></div>
-                        </div>
-                        <button type="button" class=" ms-4 mb-1 add-to-cart-btn plus"
-                            data-name="Muesli Fitness Energy" data-price="2.15" data-img="./images/12s.png">
-                        +</button>
-                    </div>
+                 
                 </div>
             </div>
         </div>
@@ -908,6 +876,9 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body" id="cartItems">
+            <div id="cartItems"></div>
+<span id="cartQuantityBadge"></span>
+<div id="totalPrice"></div>
             <!-- Cart items will appear here -->
             <p>Empty!</p>
         </div>
